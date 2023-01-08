@@ -4,11 +4,8 @@
 # Speed-Test
 A docker image for the [Speed Test by OpenSpeedTest™](https://github.com/openspeedtest/Speed-Test) project.
 
-## About:
-
-This container serves NTPsec and gpsd, built on the Docker Alpine image.
-
-This container serves [Speed Test by OpenSpeedTest](https://github.com/openspeedtest/Speed-Test), built on the Docker [nginx](https://hub.docker.com/_/nginx) image.
+## About
+This container serves [Speed Test](https://github.com/openspeedtest/Speed-Test), built on the Docker [nginx](https://hub.docker.com/_/nginx) image.
 
 # Usage
 ## Pull the image
