@@ -1,4 +1,3 @@
-
 [<img src="https://img.shields.io/badge/dockerhub-Repo_Image-Important.svg?logo=Docker">](https://hub.docker.com/r/fitzdockerhub/openspeedtest)
 ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/fitzdockerhub/openspeedtest)
 
@@ -7,10 +6,18 @@ A docker image for the [Speed Test by OpenSpeedTest™](https://github.com/opens
 
 ## About:
 
-This container runs NTPsec and gpsd, built on the Docker Alpine image.
+This container serves NTPsec and gpsd, built on the Docker Alpine image.
 
-#  - Install -
-The following will pull down the image and start the webserver on port 80
+This container serves [Speed Test by OpenSpeedTest](https://github.com/openspeedtest/Speed-Test), built on the Docker [nginx](https://hub.docker.com/_/nginx) image.
+
+# Usage
+## Pull the image
+```
+docker pull fitzdockerhub/openspeedtest:latest
+```
+
+## Run
+Webserver will be started on port 80
 ```
 docker run -d \
     --restart unless-stopped \
@@ -18,3 +25,5 @@ docker run -d \
     -p 80:80 \
 fitzdockerhub/openspeedtest:latest
 ```
+## Example
+![](https://github.com/openspeedtest/v2-Test/raw/main/images/10G-S.gif)
