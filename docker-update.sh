@@ -88,10 +88,3 @@ docker push fitzdockerhub/openspeedtest:latest
 ## Ignore my notes
 echo "*.txt" > .gitignore
 
-### Commit files to GitHub
-#git init
-git add .
-git commit -m "$OSTver"
-git branch -M main
-git remote add origin ssh://git@github.com/GitHubberFitz/Speed-Test.git
-git push -u origin main
