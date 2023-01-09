@@ -20,4 +20,4 @@ docker run -d \
 fitzdockerhub/openspeedtest:latest
 ```
 ## Example
-![](https://github.com/openspeedtest/v2-Test/raw/main/images/10G-S.gif)
+![](https://github.com/GitHubberFitz/Speed-Test/raw/main/ost/10G-S.gif)
