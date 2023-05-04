@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM nginx:1-bullseye
 ARG BUILD_DATE
 ARG BUILD_VERSION
 
